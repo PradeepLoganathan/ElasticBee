@@ -39,4 +39,6 @@ namespace ElasticBee
             client = new ElasticClient(connectionsettings);
         }
     }
+
+
 }
