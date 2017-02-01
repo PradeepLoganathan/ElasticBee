@@ -1,9 +1,10 @@
 ﻿using System;
-using Elasticsearch;
-using Elasticsearch.Net;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-namespace ElasticBee
+namespace LogEventTypes
 {
 
     #region jsonclass

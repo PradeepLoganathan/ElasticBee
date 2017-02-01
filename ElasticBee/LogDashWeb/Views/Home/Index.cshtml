@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "Log Results";
+}
+
+@model IReadOnlyCollection<LogEventTypes.Metrics>
+
+<script>
+var dataTable = $('#logtable').dataTable({
+    sPaginationType: "full_numbers"
+});
+
+dataTable.columnFilter({
+  sPlaceHolder: "head:before",
+  aoColumns: [
+      { type: "select" },
+      { type: "select" },
+      { type: "select" },
+      { type: "select" },
+      { type: "select" }
+  ]
+});
+
+</script>
+
+<style>
+    #logtable {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        #logtable td, #logtable th {
+            border: 1px solid #1c1c1c;
+            padding: 8px;
+        }
+
+        #logtable tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #logtable tr:hover {
+            background-color: #ddd;
+        }
+
+        #logtable th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: #008080;
+            color: white;
+        }
+</style>
+
+<h1> Solutions log</h1>
+<div style="overflow-x:auto;">
+    <table id="logtable" border="1">
+        <thead>
+            <tr>
+                <th>Correlation ID</th>
+                <th>Action Arguments</th>
+                <th>Event Timestamp</th>
+                <th>Event Type</th>
+                <th>Additional Info</th>
+                <th>Customer Country</th>
+            </tr>
+        </thead>
+        @foreach (var m in Model)
+        {
+            <tr>
+                <td>@m.CorrelationId</td>
+                <td>@m.ActionArguments</td>
+
+
+                <td>@m.EventTimestamp</td>
+
+
+                <td>@m.EventType</td>
+
+
+                <td>@m.AdditionalInfo</td>
+
+
+                <td>@m.Customer.Country</td>
+            </tr>
+        }
+    </table>
+</div>

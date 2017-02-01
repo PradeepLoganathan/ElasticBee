@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Nest;
 
-namespace ElasticBee
+namespace NotificationGenerator
 {
     class Program
     {
         static void Main(string[] args)
         {
-            LinnaeusApis apis = new LinnaeusApis();
-            apis.DoWork();
-         }
+            GenerateNotification Gennotify = new GenerateNotification();
+            Gennotify.Generator();
+
+        }
     }
 }
