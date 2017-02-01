@@ -1,0 +1,5 @@
+put solutionselling.metrics.02.2017{
+	"settings": {
+		"index.routing.allocation.require.box_type": "hot"
+	}
+}

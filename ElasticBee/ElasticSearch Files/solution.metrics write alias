@@ -1,0 +1,11 @@
+## mark this index as the active write index.
+POST /_aliases
+{
+	"actions": [{
+			"add": {
+				"index": "solutionselling.metrics.02.2017",
+				"alias": "solutionselling.metrics.write"
+			}
+		}
+	]
+}  
