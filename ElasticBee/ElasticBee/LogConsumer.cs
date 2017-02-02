@@ -11,7 +11,7 @@ using LogEventTypes;
 
 namespace ElasticBee
 {
-    class LinnaeusApis
+    class LogConsumer
     {
         private Uri ElasticUri;
         private ConnectionSettings connectionsettings;
@@ -22,7 +22,7 @@ namespace ElasticBee
         private IModel channel;
 
 
-        public LinnaeusApis()
+        public LogConsumer()
         {
             
 

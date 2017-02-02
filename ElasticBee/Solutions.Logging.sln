@@ -13,6 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log.EventTypes", "LogEventT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogDashWeb", "LogDashWeb\LogDashWeb.csproj", "{014C2501-BF02-46A4-AFEC-35F0C4989C57}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ES Infra Files", "ES Infra Files", "{EE63F2FE-32D3-41E2-ADFE-4B3CF86529AF}"
+	ProjectSection(SolutionItems) = preProject
+		ElasticSearch Files\solution.metrics create index = ElasticSearch Files\solution.metrics create index
+		ElasticSearch Files\solution.metrics mapping = ElasticSearch Files\solution.metrics mapping
+		ElasticSearch Files\solution.metrics template = ElasticSearch Files\solution.metrics template
+		ElasticSearch Files\solution.metrics write alias = ElasticSearch Files\solution.metrics write alias
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

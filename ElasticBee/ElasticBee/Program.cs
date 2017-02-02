@@ -11,8 +11,8 @@ namespace ElasticBee
     {
         static void Main(string[] args)
         {
-            LinnaeusApis apis = new LinnaeusApis();
-            apis.DoWork();
+            LogConsumer Consumer = new LogConsumer();
+            Consumer.DoWork();
          }
     }
 }
