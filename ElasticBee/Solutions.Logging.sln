@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticBee", "ElasticBee\ElasticBee.csproj", "{4DCC5A41-674C-4FE2-8F22-F17FA290A78A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log.Consumer", "ElasticBee\Log.Consumer.csproj", "{4DCC5A41-674C-4FE2-8F22-F17FA290A78A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationGenerator", "NotificationGenerator\NotificationGenerator.csproj", "{FFBBAD2C-0CDC-4155-85DF-971EBAC9E035}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log.NotificationGenerator", "NotificationGenerator\Log.NotificationGenerator.csproj", "{FFBBAD2C-0CDC-4155-85DF-971EBAC9E035}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogDashConsole", "LogDashConsole\LogDashConsole.csproj", "{E514616B-A4A7-4A6C-B6B4-A1A7CB5BA897}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogEventTypes", "LogEventTypes\LogEventTypes.csproj", "{7F3132B7-B555-413C-8F06-043A37869489}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log.EventTypes", "LogEventTypes\Log.EventTypes.csproj", "{7F3132B7-B555-413C-8F06-043A37869489}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogDashWeb", "LogDashWeb\LogDashWeb.csproj", "{014C2501-BF02-46A4-AFEC-35F0C4989C57}"
 EndProject

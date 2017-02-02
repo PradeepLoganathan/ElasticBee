@@ -158,9 +158,9 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LogEventTypes\LogEventTypes.csproj">
+    <ProjectReference Include="..\LogEventTypes\Log.EventTypes.csproj">
       <Project>{7f3132b7-b555-413c-8f06-043a37869489}</Project>
-      <Name>LogEventTypes</Name>
+      <Name>Log.EventTypes</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
