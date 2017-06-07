@@ -9,7 +9,7 @@ namespace LogEventTypes
 
     #region jsonclass
 
-    //Dell.SolutionSelling
+    //SolutionSelling
     public class Metrics
     {
         public string Uri { get; set; }
